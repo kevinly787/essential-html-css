@@ -19,9 +19,19 @@ a:hover, a:focus {
 	color: #0000EE;
 }
 
-h1 {
+h1, h2, h3{
+	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+	font-weight: 300;
+}
+
+/*WHY DO I HAVE TO PUT header h1 AND NOT JUST h1*/
+header h1 {
 	font-size: 300%;
 	margin: 0;
+}
+
+h2, h3 {
+	color: #505050;
 }
 
 h2 {
@@ -30,15 +40,6 @@ h2 {
 
 h3 {
 	font-size: 125%;
-}
-
-h2, h3 {
-	color: #505050;
-}
-
-h1, h2, h3{
-	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
-	font-weight: 300;
 }
 
 main {
@@ -83,6 +84,7 @@ dd {
 	margin-bottom: 1em;
 }
 
+/*IS THIS PORTION CORRECT?*/
 footer {
 	padding: 1em;
 	background-color: #FC892F;
