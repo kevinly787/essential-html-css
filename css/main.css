@@ -24,8 +24,7 @@ h1, h2, h3{
 	font-weight: 300;
 }
 
-/*WHY DO I HAVE TO PUT header h1 AND NOT JUST h1*/
-header h1 {
+h1 {
 	font-size: 300%;
 	margin: 0;
 }
@@ -84,7 +83,6 @@ dd {
 	margin-bottom: 1em;
 }
 
-/*IS THIS PORTION CORRECT?*/
 footer {
 	padding: 1em;
 	background-color: #FC892F;
